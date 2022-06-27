@@ -6,7 +6,7 @@ public class GreensTech {
 		System.out.println(id);
 	}
 	
-	private void greensOmr(String name) {
+	private void greensOmr(String name,String last) {
 		System.out.println(name);
 	}
 	
@@ -20,7 +20,7 @@ public class GreensTech {
 		
 		GreensTech g=new GreensTech();
 		g.greensOmr(214);
-		g.greensOmr("Greens Technology Pvt Ltd.");
+		g.greensOmr("Greens Technology Pvt Ltd.","mayiladuthurai");
 		g.greensOmr(6383468626l);
 	}
 
